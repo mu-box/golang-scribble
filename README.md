@@ -1,11 +1,11 @@
-Scribble [![GoDoc](https://godoc.org/github.com/boltdb/bolt?status.svg)](http://godoc.org/github.com/nanobox-io/golang-scribble) [![Go Report Card](https://goreportcard.com/badge/github.com/nanobox-io/golang-scribble)](https://goreportcard.com/report/github.com/nanobox-io/golang-scribble)
+Scribble [![GoDoc](https://godoc.org/github.com/boltdb/bolt?status.svg)](http://godoc.org/github.com/mu-box/golang-scribble) [![Go Report Card](https://goreportcard.com/badge/github.com/mu-box/golang-scribble)](https://goreportcard.com/report/github.com/mu-box/golang-scribble)
 --------
 
 A tiny JSON database in Golang
 
 ### Installation
 
-Install using `go get github.com/nanobox-io/golang-scribble`.
+Install using `go get github.com/mu-box/golang-scribble`.
 
 ### Usage
 
@@ -56,8 +56,8 @@ if err := db.Delete("fish", ""); err != nil {
 ```
 
 ## Documentation
-- Complete documentation is available on [godoc](http://godoc.org/github.com/nanobox-io/golang-scribble).
-- Coverage Report is available on [gocover](https://gocover.io/github.com/nanobox-io/golang-scribble)
+- Complete documentation is available on [godoc](http://godoc.org/github.com/mu-box/golang-scribble).
+- Coverage Report is available on [gocover](https://gocover.io/github.com/mu-box/golang-scribble)
 
 ## Todo/Doing
 - Support for windows
@@ -67,4 +67,4 @@ if err := db.Delete("fish", ""); err != nil {
 - More tests (you can never have enough!)
 
 ## Contributing
-Contributions to scribble are welcome and encouraged. Scribble is a [Nanobox](https://nanobox.io) project and contributions should follow the [Nanobox Contribution Process & Guidelines](https://docs.nanobox.io/contributing/).
+Contributions to scribble are welcome and encouraged. Scribble is a [Microbox](https://microbox.cloud) project and contributions should follow the [Microbox Contribution Process & Guidelines](https://docs.microbox.cloud/contributing/).
